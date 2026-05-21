@@ -18,3 +18,7 @@ Thumbs.db
 
 # VS Code
 .vscode/
+
+#node modules
+node_modules/
+dist/
