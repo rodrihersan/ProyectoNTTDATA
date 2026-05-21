@@ -1,3 +1,6 @@
+ALTER TABLE genero ALTER COLUMN id RESTART WITH 10;
+ALTER TABLE pelicula ALTER COLUMN id RESTART WITH 10;
+
 -- Géneros (mismos que los mock del frontend)
 INSERT INTO genero (id, nombre, descripcion) VALUES (1, 'Acción', 'Películas llenas de adrenalina, persecuciones y combates.');
 INSERT INTO genero (id, nombre, descripcion) VALUES (2, 'Drama', 'Historias profundas y emotivas centradas en personajes.');
